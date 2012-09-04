@@ -1,0 +1,20 @@
+/******************************************************
+ *	  SAMPLE CODE FOR DREAMFORCE 2012 PRESENTATION    *
+ *  "INTEGRATING PAYPAL MASS PAYMENTS WITH FORCE.COM" *
+ *						   by						  *
+ *				   	 SIMON LAWRENCE					  *
+ *				   	 www.desynit.com				  *
+ *				simon.lawrence@desynit.com			  *
+ *													  *
+ *	 This code is for demonstration and educational   *
+ *   purposes only, and should not be used in live	  *
+ *   enviroments without appropriate adaptation and   *
+ *					  	knowledge					  *
+ *													  *
+ *   This code is distributed on an "AS IS" BASIS,	  *
+ * 	 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,	  *
+ *	          either express or implied.			  *
+ *													  *
+ ******************************************************/
+
+<apex:page controller="PaypalIPNController" showHeader="false" sidebar="false" action="{!digestMessage}"/>
